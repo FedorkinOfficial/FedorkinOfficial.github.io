@@ -1,0 +1,487 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	box-sizing: border-box;	
+}
+ul,li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+}
+.container {
+	width: 1170px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.flex {
+	display: flex;
+}
+    /*Хеадер*/
+ header {
+ 	margin-top: 45px;
+ }
+ .text button {
+ 	width: 158px;
+ 	height: 38px;
+ 	margin-left: 45px;
+ 	border: 1px solid #000;
+ 	font-size: 15px;
+ 	font-family: 'Roboto Slab';
+ 	font-weight: bold;
+ 	background: #fff;
+ 	transition: .2s;	
+ }  
+ .text button:hover{
+	background: #cff8f6;
+ }  
+.text {
+	align-items: center;
+	margin-left: 430px;
+}
+.text a {
+	margin-left: 40px;
+	font-size: 14px;
+	font-family: "RobotoLight";
+	color:#000;
+	text-decoration: none;
+	border-bottom: 1px solid #cfcfcf;
+}
+.text a:hover {
+	color: #f25a29;
+}
+.text span {
+	font-size: 14px;
+	color: #737373;
+	font-family: "RobotoLight";
+}
+
+/*вторая часть хедера*/
+.main-title {
+	width: 585px;
+}
+.main-title span{
+	font-size: 18px;
+	font-family: "RobotoLight";
+}
+.main-title h1 {
+	font-size: 69px;
+	font-family: 'Roboto Slab';
+	margin-bottom: 13px;
+}
+.main-title ul {
+	margin-top: 50px;
+}
+.marker {
+	border: 4px solid #ffae00;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-title ul li {
+	align-items: center;
+	margin-top: 13px;
+	font-weight: 400;
+}
+.marker-text {
+	margin-left: 14px;
+	font-size: 17px;
+	font-family: "RobotoRegular";
+}
+.wrap-title {
+	margin-top: 30px;
+}
+/*кнопка*/
+.main-title__button button {
+	width: 337px;
+	height: 80px; 
+	font-size: 22px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	border: none;
+	background: #ffae00;
+	transition: .1s;
+}
+.main-title__button_num {
+	height: 80px;
+	width: 75px;
+	background: #000;
+	color: #fff;
+	font-family: 'Roboto Slab';
+	font-size: 13px;
+	font-weight: bold;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.main-title__button_num span {
+	font-size: 19px;
+	font-weight: bold;
+	font-family: 'Roboto Slab';
+}
+.main-title__button button:hover{
+	background:  #d79a18;
+	border: 2px solid #000;
+}
+.main-title__button {
+	margin-top: 55px;
+}
+header {
+	background: url(../img/footer-img.png) no-repeat 650px bottom;
+}
+
+/*Секция с иконками*/
+
+.icon__title {
+	font-size: 41px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;	
+}
+.icon__text {
+	font-size: 17px;
+	font-family: "RobotoRegular";
+	width: 560px;
+	margin-top: 10px;
+}
+.icon-wrap h3 {
+	font-size: 18px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+}
+.icon-wrap p {
+	font-size: 16px;
+	font-family: "RobotoLight";
+}
+.icon-wrap__idia img,
+.icon-wrap__prof img,
+.icon-wrap__money img {
+	align-self: flex-start;
+}
+.icon-wrap__idia-text {
+	margin: 20px 25px;
+}
+#icon {
+	margin-top: 160px;
+}
+.icon-wrap {
+	margin-top: 45px;
+}
+.icon-wrap {
+	width: 100%
+    justify-content: space-between;
+}
+.icon-wrap__prof,
+.icon-wrap__idia,
+.icon-wrap__money{
+	width: 390px;
+}
+.icon-wrap__idia-text h3 {
+	width: 90%;
+}
+
+/*Секция  встречи*/
+
+.title-num {
+	font-size: 351.5px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	color: #ffae00;
+}
+.titl-text h1 {
+	font-size: 70px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	color: #ffae00;
+}
+.titl-text h2 {
+	font-size: 41px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+}
+.titl-text {
+	margin-top:155px;
+	margin-left: 40px; 
+	width: 55%;
+}
+.num-square {
+	width: 70px;
+	height: 80px;
+	background: #ffae00;
+	font-size: 42px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+.title {
+	height: 435px;
+}
+.num-text span{
+	color: #ffae00;
+	font-size: 21px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+.num-text p {
+	font-size: 16px;
+	font-family: "RobotoLight";
+	width: 280px;
+	color: #fff;
+	margin-top: 20px;
+}
+.num-text {
+	width: 290px;
+	padding: 0 20px;
+	margin-top: 25px;
+}
+.num-item {
+	height: 265px;
+}
+#mitin {
+	background: url(../img/num-bg.png) no-repeat center 435px;
+	margin-top: 10px;
+}
+/*Секция с именем и фото*/
+.first {
+	background: #1c1c1c;
+}
+.name__text p {
+	font-size: 41px;
+	color: #fff;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.name__text span {
+	font-size: 18px;
+	color: #fff;
+	font-family: "RobotoLight";
+}
+.name__skilss_square {
+	width: 22px;
+	height: 22px;
+	background: #ffae00;
+}
+.name__skilss_text {
+	color: #fff;
+}
+.name__skilss li {
+	width: 520px;
+}
+.name__skilss_text p {
+	font-size: 17px;
+	font-family: "RobotoLight";
+}
+.site {
+	font-family:"Roboto Black";	
+}
+.name__skilss_text a{
+	font-size: 14px;
+	color: #d4d4d4;
+	font-family: "RobotoLight";
+}
+#or {
+	color: #fff;
+	font-family: "RobotoLight";
+}
+.name__skilss_text-p {
+	font-size: 17px;
+	color: #fff;
+	font-family: "RobotoLight";
+}
+.name__skilss_text-p span {
+	font-family:"Roboto Black";	
+}
+.name__skilss li{
+	margin-top: 20px;
+} 
+.name__skilss_text,
+.name__skilss_text-p{
+	margin-left: 20px;
+}
+.name__skilss {
+	margin-top: 40px;
+}
+ .foto {
+	margin-left: 130px;
+}
+.name {
+	padding: 75px 0;
+}
+
+/*секция last*/
+
+.last {
+	background: #101010;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	height: 87px;
+	display: flex;
+	align-items: center;
+}
+.last__skills ul li i {
+	color: #ffae00;
+}
+.last__skills ul li p {
+	color: #fff;
+}
+.last__skills ul li {
+	align-items: center;
+}
+.last__text {
+	color: #ffae00;
+	font-size: 19px;
+}
+.last__skills {
+	margin-left: 170px;
+}
+
+    /*Секция с формой*/
+
+.form__title {
+	margin-top: 65px;
+}
+.form__title h2{
+	font-size: 41px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+}
+.form__num-first_yellow {
+	width: 53px;
+	height: 53px;
+	color: #000;
+	background: #ffae00;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	line-height: 14px;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.form__num-first_black {
+	height: 53px;
+	width: 73px;
+	background: #000;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	text-align: center;
+	line-height: 53px;
+}
+.today {
+	line-height: 15px;
+	font-size: 14px;
+	font-family: "RobotoLight";
+	padding: 10px 15px;
+}
+.form__num-first_black-second {
+	width: 141px;
+	height: 53px;
+	background: #000;
+	color: #fff;
+}
+.form__num-second {
+	width: 280px;
+	margin-left: 35px;
+}
+.form__num-second p{
+	font-size: 15px;
+	font-family: "RobotoLight";
+}
+.form__num-second span {
+	font-size: 16px;
+	font-family:"Roboto Black";
+}
+.form__num {
+	margin-top: 40px;
+}
+
+/*Секция с формой */
+
+.form__area {
+	border: 5px	solid #ffae00;
+	width: 763px;
+	margin-top: 35px;
+}
+.form__area-input input {
+	height: 48px;
+	width: 218px;
+	border: 1px solid #101010; 
+	font-size: 15px;
+	font-family: "RobotoRegular";
+	padding-left: 25px;
+}
+.form__area-input_item {
+	margin-left: 15px;
+}
+.form__area-input_item input{
+	margin-left: 15px;
+}
+.form__area-input_item button {
+	margin-left: 10px;
+	height: 50px;
+	width: 210px;
+	background: #ffae00;
+	border: none;
+	font-size: 18px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+}
+.form__area-input_item button:hover {
+	background: #e5a10d;
+}
+
+.form__area-input_item button i {
+	margin-right: 10px;
+}
+.form__area-title {
+	font-size: 19px;
+	font-family: 'Roboto Slab';
+	font-weight: bold;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.form__area-input {
+	margin-top: 23px;
+}
+.form__area p {
+	margin-top: 15px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+	font-size: 13px;
+	font-family: "RobotoLight";
+}
+/*Секция Футера*/
+#footer {
+	height: 80px;
+	background: #000;
+	font-size: 13px;
+	line-height: 80px;
+	margin-top: 80px;
+}
+.footer-first{
+	font-family: "RobotoRegular";
+	color: #a9a9a9;
+}
+.footer-last{
+ 	font-family: "RobotoLight";
+ 	color: #a9a9a9;
+}
+.footer-last {
+	margin-left: 55px;
+}
+.last__skills ul li {
+    margin-left: 10px;
+}

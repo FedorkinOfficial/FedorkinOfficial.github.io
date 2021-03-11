@@ -1,0 +1,364 @@
+
+/*медиа Главная(начало)*/
+
+@media screen and (max-width: 1600px) {
+    
+   
+   
+@media screen and (max-width: 1200px) {
+    
+
+@media screen and (max-width: 992px) {
+    
+       
+@media screen and (max-width: 768px) {
+
+    
+
+@media screen and (max-width: 576px) {
+   .main-title h1{
+    font-size: 47px;
+    letter-spacing: 5px;
+   }
+   .main-title p{
+    font-size: 33px;
+   }
+   .benefits-title h2 {
+    font-size: 33px;
+   }
+   .pereezd__title p{
+    width: 100%;
+   }
+   .pereezd__question p{
+    padding-top: 30px;
+   }
+   .pereezd__question span{
+    font-size: 19px;
+   }
+   .pereezd__btn {
+    padding-top: 31px;
+   }.pereezd__question {
+    margin-top: 23px;
+   }
+   #pereezd {
+    padding-top: 28px;
+   }
+   .services__title h2 {
+    letter-spacing: 0px;
+    font-size: 32px;
+   }
+   .services__dreams_img img{
+    left: 14%;
+   }
+    .reviews__text_item {
+    flex-direction: column;
+    }
+    .reviews__img {
+    position:relative;
+    top: 0px;
+    left:0px;
+    order: -1;
+    }
+    .b-reviews{
+        margin-left: 0px;
+    }
+    .reviews__text {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    }
+    .reviews__text_item a{
+        margin-left: 0px;
+    }
+    .reviews__text {
+        padding-top: 21px;
+    }
+    .reviews__text_item span{
+        margin-top: 15px;
+    }
+    .reviews__text_item a{
+        margin-top: 12px;
+    }
+    .main-form__input input{
+        width: 95%;
+    }
+    .main-form__input a {
+        width: 95%;
+    }
+    .footer-law{
+    font-size: 12px;
+   }
+    .services__title h2{
+    padding-top: 40px;
+  }
+  .b-reviews {
+    padding-top: 45px;
+    padding-bottom: 30px;
+  }
+  .pointer-img{
+    padding-top: 37px;
+  }
+  .reviews__text{
+    padding-bottom: 7px;
+  }
+  .main-form__input{
+    padding-bottom: 35px;
+  }
+    #footer{
+        padding: 15px 0px;
+    }
+    .main-form__title h2{
+        padding-top: 45px;
+    }
+    #benefits{
+        padding-bottom: 60px;
+    }
+    .benefits-items__blok img{
+        padding-top: 20px;
+    }
+    .benefits-items__blok{
+        padding: 0px 23px;
+    }
+    .benefits-title h2 {
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+    .pereezd__title{
+        margin-top: 25px;
+    }
+    .services__title h2 {
+        /*padding-top: 10px;*/
+    }
+    .b-tel{
+        display: none;
+    }
+    .d-burger{
+    
+    }
+    .tel-num a ,
+    .tel-ikon {
+        display: none;
+    }
+    .left-arrow{
+      display: none;
+     }
+    .right-arrow {
+       display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+   .footer-law {
+    display: none;
+   }
+   .pereezd__question span{
+    font-size: 18px;
+   }
+   .services__title h2 {
+    letter-spacing: 0px;
+    font-size: 29px;
+   }
+}
+
+@media screen and (max-width: 385px){
+    .services__dreams_img img{
+    left: 0%;
+   }
+   .services__dreams_offer-circle{
+    left: 43%;
+   }
+   .footer-law{
+    display: none;
+   }
+  .services__title h2{
+    padding-top: 0px;
+  }
+  .d-burger {
+    margin-left: 0px;
+  }
+} 
+
+/*медиа запросы Главная (конец)*/
+
+/*медиа запросы страница Недвижемсть и переезд (начало)*/
+
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+    
+     .tel-hidden {
+        display: block;
+     }
+     .footer__tel-num{
+        margin-top: 12px;
+     }
+     .footer-ikon__tel {
+        top: 12px;
+     }
+     .footer__burger{
+        margin-top: 10px;
+     }
+     .footer__tel-num{
+        margin-right: 30px;
+     }
+    .header-ikon__tel {
+        top: 14px;
+    }
+   .pos-rel {
+    position: static;
+   }
+   .new-live p{
+    margin-top: 20px;
+   }
+   .img-home{
+    margin-top: 20px;
+   }
+}
+@media screen and (max-width: 768px) {
+
+   .footer__tel-num{
+    display: none;
+   } 
+    .new-live p{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .img-home {
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+   .b__title h1 {
+    font-size: 40px;
+   }
+    .b__title h1{
+        letter-spacing: 0px;
+    }
+    .b__package img {
+        margin-left: 0px;
+    }   
+}
+@media screen and (max-width: 320px) {
+   
+}
+
+@media screen and (max-width: 385px){
+  .b-input input{
+    width: 100%
+  }
+  .bt-form {
+    width: 100%;
+  }
+  .b__title h1{
+       font-size: 32px;
+    }
+    .rights {
+        display: none;
+    } 
+     .img-home img {
+        width: 97%;
+     } 
+} 
+/*медиа запросы страница Недвижемсть и переезд (конец)*/
+
+/*медиа запросы страница Контакты (начало)*/
+@media screen and (max-width: 1200px) {
+    
+  .b-right_form-set input,
+     .contact-button{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 992px) {
+    
+    .contact-header__phone_num{
+        border-bottom: none;
+    }
+    .contact-header__phone_ikon {
+        top: 15px;
+    }
+    .b-right_form-set input,
+     .contact-button{
+        width: 80%;
+    }
+    #contact-form {
+        background-color: #fff;
+    }
+    .pos-rel__contact {
+        top: -83px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+   .footer__tel-num{
+    display: none;
+   }  
+   .b-left-text {
+    margin-left: 0px;
+   }
+   .b-left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+   }
+   .b-left img {
+    margin: 0 auto;
+   }
+   .b-left-text {
+    margin: 0 auto;
+    text-align: center;
+    
+   }
+}
+@media screen and (max-width: 576px) {
+   .contact-header__title_items h1 {
+    font-size: 45px;
+   }
+}
+@media screen and (max-width: 385px){
+   .contact-header__title_items h1 {
+    font-size: 35px;
+   }
+   #contact-form {
+    /*margin-top: -26px;*/
+   }
+} 
+
+/*Медиа запросы О Компании (начало)*/
+
+
+@media screen and (max-width: 1200px) {
+    .already {
+        letter-spacing: .2rem;
+    }
+  
+}
+@media screen and (max-width: 992px) {
+    
+  .pos-rel__partners {
+    position: static;
+  } 
+}
+@media screen and (max-width: 768px) {
+    .b-foto-man {
+        margin-top: 50px;
+    }
+   .management-partners {
+    padding-bottom: 0px;
+    padding-top: 20px;
+   }  
+   .already {
+    margin-top: 0px;
+    margin-bottom: 10px;
+   }
+}
+@media screen and (max-width: 576px) {
+  .b-foto-man {
+    /*width: 90%;*/
+  }
+}
+@media screen and (max-width: 385px){
+  
+} 
